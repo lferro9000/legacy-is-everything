@@ -1,6 +1,6 @@
-# jenkins-pipelines-slides
+# legacy-is-everything
 
-PHP Berkshire 2017-06-21 - PHP Pipelines in the Wild
+PHP Oxford  2017-10-25 - Battle of Agincourt day
 
 To see the slides, clone the repo, then serve the content somehow:
 
