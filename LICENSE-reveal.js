@@ -1,9 +1,4 @@
-This license covers only the original and derived images, the associated css 
-and the slide-deck contained in index.html.
-
-For all other parts, the applicable license is in LICENSE-reveal.js file. 
-
-Copyright (C) 2017 Luis Ferro, https://lferro.org
+Copyright (C) 2017 Hakim El Hattab, http://hakim.se, and reveal.js contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
