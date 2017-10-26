@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Legacy is everything</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+        <section data-background="/images/azincourt.jpg">
+            <h3 style="color:#fff">25 October 1415 / 2017</h3>
+            <br />
+
+            <a href="https://www.meetup.com/PHP-Oxford"><img style="background-color: #fff" src="images/phpoxford.png"></a>
+            <br />
+            <br />
+            <p style="line-height:20px;padding:5px"><a style="line-height:20px;padding:5px;background-color:#fff;color:#004b00" href="https://pod.ocfi.co.uk/coworking/"><small style="line-height:20px;padding:5px;">Hosted in:&nbsp;&nbsp;&nbsp; The POD, Oxford Centre for Innovation, Oxford</small></a>
+            </p>
+        </section>
+
+        <section>
+            <h1>Legacy is everything</h1>
+            <br />
+            <h2>and everything is legacy</h2>
+            <br />
+            <p>The art of tackling legacy and survive</p>
+         </section>
+
+        <section>
+            <h2>Who am I</h2>
+            <img src="images/archery_forever.jpg" style="float: left">
+            <ul>
+                <li>Luis Ferro</li>
+                <li class="fragment">Developer since... ZX Spectrum</li>
+                <li class="fragment">PHP developer since... 1998</li>
+                <li class="fragment">Archer (yes, i also shoot arrows :)</li>
+                <li class="fragment"><a href="https://twitter.com/lferro9000">@lferro9000</a></li>
+                <li class="fragment"><a href="https://github.com/lferro9000">github.com/lferro9000</a></li>
+            </ul>
+            <p class="fragment">
+                <small>This talk and all materials are on github.</small>
+            </p>
+        </section>
+
+        <section>
+            <h2>What is legacy?</h2>
+            <ul>
+                <li class="fragment">noun</li>
+                <li class="fragment">an amount of money or property left to someone in a will.</li>
+                <br/>
+                <li class="fragment">adjective</li>
+                <li class="fragment">denoting or relating to software or hardware that has been superseded but is difficult to replace because of its wide use.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Legacy code</h2>
+            <li>legacy code is code without tests (Michael Feathers)</li>
+            <p>
+                <small>Michael Feathers' Working Effectively with Legacy Code (ISBN 0-13-117705-2)</small>
+            </p>
+        </section>
+
+        <section>
+            <h2>Everything is</h2>
+            <li>code that doesn't change is legacy</li>
+        </section>
+
+        <section>
+            <h2>You have it!</h2>
+            <ul>
+                <li class="fragment">code inherited from others</li>
+                <li class="fragment">code from dependencies</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>It's everywhere!</h2>
+            <ul>
+                <li class="fragment">even in code just written!</li>
+            </ul>
+        </section>
+
+
+        <section>
+            <h2>Legacy as a value</h2>
+            <ul>
+                <li class="fragment">The code exists in production</li>
+                <li class="fragment">Generates revenue for the company</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Legacy as a constraint</h2>
+            <ul>
+                <li class="fragment">code is hard to change</li>
+                <li class="fragment">takes time to add features</li>
+                <li class="fragment">even harder to test and validate</li>
+                <li class="fragment">increased costs at every interaction</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Not fun to work with</h2>
+
+            <img src="images/skeleton.jpg">
+        </section>
+
+        <section>
+            <h2>Why we ended up there?</h2>
+            <ul>
+                <li class="fragment">design choices</li>
+                <li class="fragment">development and business practices</li>
+                <li class="fragment">technical decisions</li>
+                <li class="fragment">technical obsolescence</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Is there a way out?</h3>
+
+            <h2 class="fragment">YES</h2>
+        </section>
+
+        <section>
+            <h2>Get the basics right</h2>
+            <ul>
+                <li class="fragment">environment</li>
+                <li class="fragment">processes</li>
+                <li class="fragment">planning</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Environment</h2>
+            <ul>
+                <li class="fragment">Source control</li>
+                <li class="fragment">Continuous Integration</li>
+                <li class="fragment">Unit Tests</li>
+                <li class="fragment">Functional Tests</li>
+                <li class="fragment">Defect Tracking</li>
+                <li class="fragment">Documentation</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Processes</h2>
+            <ul>
+                <li class="fragment">New features</li>
+                <li class="fragment">Bug fixes</li>
+                <li class="fragment">Deployments</li>
+                <li class="fragment">Infrastructure</li>
+                <li class="fragment">Refactoring</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Planning</h2>
+            <ul>
+                <li class="fragment">Prioritize</li>
+                <li class="fragment">Simplify</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Change</h2>
+            <ul>
+                <li class="fragment">Plan the change</li>
+                <li class="fragment">Change the plan</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Your best tool</h2>
+            <img class="fragment" src="images/delete.jpg">
+        </section>
+        
+        <section>
+            <h2>Case study</h2>
+            <ul>
+                <li class="fragment">Publishing company</li>
+                <li class="fragment">Education company</li>
+                <li class="fragment">SaaS company</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Closing notes</h2>
+            <ul>
+                <li class="fragment">Remember: Mind your code!</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>References</h2>
+            <ul>
+                <li><a href="http://www.phptherightway.com/">PHP The right way</a></li>
+                <li><a href="https://thephpleague.com/">The League of Extraordinary Packages</a></li>
+                <li><a href="https://www.amazon.co.uk/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052">Working Effectively with Legacy Code (Michael Feathers')</a></li>
+                <li><a href="http://shop.oreilly.com/product/0636920033868.do">Modern PHP (Josh Lockhart)</a></li>
+                <li><a href="https://leanpub.com/mlaphp">Modernizing Legacy Applications In PHP (Paul M. Jones)</a></li>
+                <li><a href="https://www.youtube.com/watch?v=mod7Yb9PmHo">How to escape Legacy Hell (Sebastian Heuer & Arne Blankerts)</a></li>
+            </ul>
+            <p class="fragment">And many more...</p>
+        </section>
+
+        <section style="text-align: left;">
+            <h1>THE END</h1>
+
+            <p>
+                - <a href="https://github.com/hakimel/reveal.js">
+                Slides done with Reveal.js</a><br>
+                - <a href="https://www.flickr.com/photos/kessiye/170894098/in/photolist-g6SRY-SXHkxv-3qjUko-98ZYam-dLX3ZN-88dLA9-dYp9sh-kHZ8ZR-sX3Ku7-dH7spy-81xH6f-4CBnxi-nP6noj-ftzo7h-5WA7S8-msDU5-UHDDwY-kjUqMX-4X5i-5YbAJ1-8niHBi-4NSMBA-661RxE-aW23CP-hQ83N9-7yzMAK-7zVmnG-x5P3f-aqfUFp-6EAoS2-cASA1A-6527Y5-5WpAWM-6YqEco-5yvqt6-gFhXwi-WWEf6q-71LJkJ-9sh1Mg-8inK16-FmPkp-2Ahswi-5objkS-8gfxp8-aVqzjP-73rr-4LC4WU-g89p-ffxC58-8xi7Cn">
+                skull - flickr Ben Francis,  CC BY-SA 2.0</a><br>
+                - <a href="https://www.flickr.com/photos/angelusyodason/9472277200/in/photolist-fr2U19-qUkQkr-zRow81-DcUrJH-seayA5-qPLJZw-AWAByU-LGgrJM-9mLngq-nSWaYB-J3Yib-fr2TiC-fr2S9f-nZyKXt-a1kZdV-CBt7E1-nFmuSp-qanM65-MtAqW5-oYMPna-FxBYCA-G3XRD7-G3YqM1-G3XoEC-iaX8Lz-kJDJru-kJCtdq-kJBE6k-kJC1a6-kJABPZ-kJAvvM-kJD9Se-kJD34V-kJzTig-kJA2UK-kJEfkN-kJBncR-kJDb4U-kJAQDM-kJA8CZ-MACZih-McFFZA-FxN5uV-GqMxYm-kJAJ8F-kJE7Hy-rkcKwR-qGKfug-rmXTaW-rDqR3m">
+                agincourt - flickr Angelus YODASON, CC BY-SA 2.0</a><br>
+                - <a href="https://www.flickr.com/photos/34399400@N05/8669856476/in/photolist-ed8hh5-UP2kTd-USzVBx-rr1QqP-pidX8n-dswPRb-nz7Hr4-hPiRz1-4HUd9U-TD3a5T-h9tqhn-pCA9tm-55UA1h-6JEybP-5Ax66X-nhC6rL-6veBsb-grBLLM-btVQTu-pxERNY-pidVg6-MuE8D-gfnhii-4nKmYy-oRiLjT-jpKsfS-3jZmi9-55UA4m-Vu3aSx-Lf4k7-iRezVJ-ekUyG-iRe524-55UzXG-bpixTw-5xprC9-55QoRe-pbmXeH-qdcC9X-55UA8G-bBkhgg-55Qp78-55QowM-5p1BC4-59fRcx-h9tpbW-5QPmbK-98ycuL-cY8g2-8zZsch">
+                delete key - flickr sammynetbook, CC BY-SA 2.0</a><br>
+                - <a href="https://www.flickr.com/photos/hodgers/117656100/in/photolist-bp24s-cKqYV-8PURpc-8XmW8-5AtNZx-5zGq2o-vgyFj-d9871Y-nFzauR-75pmnn-nUMcMi-4c8MVY-jAAz6Y-MRx8q-a3Pqn-ipTL8t-7228XN-5W7Dgj-4yFXdj-5rG3S7-3JFPfy-fhgSsZ-cx4BvW-75pmpg-U2cJ7h-4rsgjt-gCcL9P-UvwR8x-aD5Xyq-dsWpD-8LXHDV-tqKBM-XVLc63-g5UqtN-2tM6hS-5DwadR-5xJMei-bJTPgk-75tego-65WbiP-s7vXDE-5PVGe5-9sLWdY-VpBzN-u3z9Q-rnKhr-4A2HKu-659civ-4zXsEk-7bf5D2">
+                skeleton - flickr Tom Hodgkinson, CC BY-SA 2.0</a><br>
+                - <a href="https://creativecommons.org/licenses/by-sa/2.0/deed.en_GB">CC BY-SA 2.0</a><br>
+                - <a href="https://www.favicon-generator.org/">Icons generated with favicon-generator.org</a><br>
+            </p>
+        </section>
+
+    </div>
+
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+            { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+            { src: 'plugin/zoom-js/zoom.js', async: true },
+            { src: 'plugin/notes/notes.js', async: true }
+        ]
+    });
+
+</script>
+
+</body>
+</html>
