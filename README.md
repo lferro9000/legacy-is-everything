@@ -15,3 +15,9 @@ Then open your browser with the address:
 http://localhost:8081
 
 :)
+
+# Licensing
+
+reveal.js license in LICENCE-reveal.js
+slide-deck, images and corresponding CSS in LICENSE
+image attribution for the originals in index.html
